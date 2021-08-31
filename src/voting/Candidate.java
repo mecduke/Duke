@@ -107,6 +107,6 @@ public class Candidate {
     	System.out.println(cand1.getName() + ": " + cand1.getVotes());
     	System.out.println(cand2.getName() + ": " + cand2.getVotes());
     	System.out.println(cand3.getName() + ": " + cand3.getVotes());
-    	
+    	 
     }
 }
