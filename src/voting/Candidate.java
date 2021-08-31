@@ -104,9 +104,9 @@ public class Candidate {
     	Candidate cand1 = new Candidate("John Wick", "Democratic", 200);
     	Candidate cand2 = new Candidate("Thomas Anderson", "Republican", 500);
     	Candidate cand3 = new Candidate("Franklin D. Roosevelt", "Green", 400);
-    	System.out.println("Candidate 1: " + cand1.getName() + ", " + cand1.getParty() + ", " + cand1.getVotes()+" votes");
-    	System.out.println("Candidate 2: " + cand2.getName() + ", " + cand2.getParty() + ", " + cand2.getVotes() + " votes");
-    	System.out.println("Candidate 3: " + cand3.getName() + ", " + cand3.getParty() + ", " + cand3.getVotes()+ " votes");
+    	System.out.println(cand1.getName() + ": " + cand1.getVotes());
+    	System.out.println(cand2.getName() + ": " + cand2.getVotes());
+    	System.out.println(cand3.getName() + ": " + cand3.getVotes());
     	
     }
 }
